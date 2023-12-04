@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #094b72;
+  --secondary-color: #0f6e8c;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+  letter-spacing: .01em;
+}
+
+.navbar .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.navbar span {
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  padding: .5em 1em;
+  border-radius: 5em;
+  margin-right: .5em;
+}
+
+.navbar ul {
+  margin: 0;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.navbar nav input {
+  border: none;
+}
+
+.navbar nav button {
+  border: none;
+  background: none;
+}
+
+.navbar a {
+  color: #444444;
+  font-size: 1em;
+  padding: .1em 1em;
+  text-decoration: none;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px auto;
+      grid-template-columns: 180px auto;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 0;
+  display: block;
+}
+
+.hero {
+  background: #f9f8f9;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero section {
+  padding-top: 5em;
+}
+
+.hero .left-col {
+  width: 90%;
+  margin-bottom: 0;
+}
+
+.hero .left-col h1 {
+  font-size: 2.5em;
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 108px;
+  color: var(--primary-color);
+  word-wrap: none;
+  margin-bottom: 0;
+}
+
+.hero .left-col h1 span {
+  display: block;
+}
+
+.hero .left-col p {
+  font-family: 'Plus Jakartan Sans';
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.hero .left-col p span {
+  display: block;
+}
+
+.hero .left-col .primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: .7em 1.5em;
+  border-radius: .4em;
+  display: inline;
+}
+
+.hero .left-col .left-bottom-col .bottom-col {
+  color: #8b8c8c;
+  margin-top: 3em;
+}
+
+.hero .left-col .left-bottom-col .companies {
+  width: 40%;
+}
+
+.hero .left-col .left-bottom-col .companies-logo {
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.hero .hero-img-woman {
+  margin-top: -3em;
+  margin-left: -10em;
+}
+
+.hero .hero-img-woman .hero-img {
+  width: 90%;
+  margin-bottom: 0;
+}
+
+section.features-section {
+  background: #f2fcff;
+}
+
+section.features-section .container .feature-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+}
+
+section.features-section .container .feature-left h2 {
+  word-wrap: none;
+  font-family: 'Playfair Display';
+  font-size: 60px;
+  margin: 0;
+}
+
+section.features-section .container .feature-left h2 span {
+  display: block;
+}
+
+section.features-section .container .feature-left p {
+  font-family: 'Poppins';
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 1.25em;
+  color: #8b8c8c;
+  letter-spacing: 0.5px;
+}
+
+section.features-section .container .feature-left p span {
+  display: block;
+}
+
+section.achievements {
+  background: #1282a6;
+  text-align: center;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+section.achievements .container h2.achievements-head {
+  font-family: 'Playfair Display';
+  font-size: 2.5em;
+  margin: 0;
+}
+
+section.achievements .container p {
+  font-size: 1em;
+}
+
+section.achievements .container .columns ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+section.achievements .container .columns ul li {
+  margin: 2em;
+}
+
+section.achievements .container .columns ul hr {
+  margin: 2em;
+  position: static;
+  opacity: 0.7;
+}
+
+section.achievements .container .columns ul h2 {
+  font-size: 3em;
+  margin: 0;
+}
+
+section.achievements .container .columns ul p {
+  margin: 0;
+}
+
+section.testimonials-section {
+  background: #f4fbff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+section.testimonials-section h2 {
+  font-family: 'Playfair Display';
+  font-size: 48px;
+  text-align: center;
+}
+
+section.testimonials-section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.testimonials-section ul li blockquote {
+  background: white;
+  text-align: center;
+  border-radius: .5em;
+  padding: 2em;
+  margin: 1em;
+  height: 15em;
+  width: 25em;
+}
+
+section.testimonials-section ul li cite {
+  text-align: center;
+}
+
+section.testimonials-section ul li cite span {
+  display: block;
+}
+
+section.contact {
+  background: white;
+  margin-bottom: 0;
+}
+
+section.contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+section.contact .container .contact-left h2 {
+  font-family: 'Playfair Display';
+  font-size: 48px;
+}
+
+section.contact .container .contact-left p {
+  font-family: 'Poppins';
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  width: 85%;
+}
+
+section.contact .container .contact-left .primary-cta {
+  background: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  padding: .7em 1.5em;
+  border-radius: .4em;
+  display: inline;
+}
+
+section.contact .container .contact-img {
+  margin-bottom: 0;
+  margin-right: 0.5em;
+}
+
+section.contact .container .contact-img .contact-guy {
+  width: 170%;
+  border-bottom-left-radius: 2.5em;
+}
+
+section.footer {
+  background: var(--secondary-color);
+  padding-top: 5em;
+}
+
+section.footer .logo2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+section.footer span {
+  background: white;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: .5em 1em;
+  border-radius: 5em;
+  margin-right: .5em;
+}
+
+section.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.footer .container .row {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.footer .container .row .column ul {
+  display: block;
+  padding: 2em;
+}
+
+section.footer .container .row .column ul a {
+  text-decoration: none;
+  color: white;
+}
+
+section.footer .footer-buttom {
+  background: #05546d;
+  color: white;
+}
+
+section.footer .footer-buttom ul a {
+  text-decoration: none;
+  margin: .4em;
+  padding: .2em;
+  color: #f9f8f9;
+  background: var(--secondary-color);
+  border-radius: 4em;
+}
+/*# sourceMappingURL=main.css.map */
